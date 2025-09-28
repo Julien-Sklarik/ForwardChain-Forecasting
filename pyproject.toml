@@ -1,0 +1,10 @@
+[project]
+name = "forwardchain"
+version = "0.1.0"
+description = "Leak free panel time series forecasting with forward chaining"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["forwardchain"]
+package-dir = {"" = "src"}

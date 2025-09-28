@@ -1,0 +1,16 @@
+data_dir: "data"
+id_col: "Store"
+date_col: "Date"
+target_col: "Sales"
+n_splits: 5
+lags: [1, 2, 5, 7, 14, 28]
+roll_windows: [3, 7, 14, 28]
+min_roll_periods: 3
+high_cardinality_threshold: 255
+model:
+  learning_rate: 0.1
+  max_depth: null
+  min_samples_leaf: 20
+tuning:
+  learning_rate: [0.05, 0.1]
+  max_depth: [null, 6, 12]
