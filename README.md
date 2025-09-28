@@ -4,7 +4,7 @@ Leak free panel time series modeling with forward chaining and feature ablations
 ![Permutation importance preview](figures/top10_importances.png)
 
 ## Overview
-I built this project to show how I approach forecasting under a real temporal constraint. It started as my UC Berkeley work and I refactored it into a small library and a training script. The design transfers directly to multi asset modeling where Store becomes Ticker and Sales becomes a forward return target.
+I built this project to show how one can approach forecasting under a real temporal constraint. It started as one of my UC Berkeley work and I refactored it into a small library and a training script. The design transfers directly to multi asset modeling where Store becomes Ticker and Sales becomes a forward return target.
 
 ## What is inside
 * Reusable sklearn pipeline for panel time series
@@ -61,6 +61,3 @@ I built this project to show how I approach forecasting under a real temporal co
 
 ## License
 MIT
-
-## Contact
-Your Name
